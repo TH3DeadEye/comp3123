@@ -1,0 +1,20 @@
+{
+  "name": "lab5_express",
+  "version": "1.0.0",
+  "description": "using the express framework for the routes in our server",
+  "license": "ISC",
+  "author": "Arman Milani",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js localhost 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+      "nodemon": "^3.1.14"
+  }
+}
